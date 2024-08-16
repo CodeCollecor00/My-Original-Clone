@@ -1,0 +1,555 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    border: border-box;
+}
+/* Here is our navigation bar startup */
+.navbar{
+    background-color:#0f1111;
+    height: 60px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.navimag{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+
+}
+.logo{ 
+    background-image: url(logo\ \(2\).png);
+    background-size:cover;
+    font-size: larger;
+    height: 60px;
+    width: 100%;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* This is my our box1 */
+.box1{
+    height: 50px;
+    width: 100px;
+    color: #cccc;
+}
+.location{
+    display: flex;
+}
+.location p{
+    color: white;
+    font-size: .9rem;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+.location i{
+    color: white;
+    font-size: .95rem;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.del{
+    margin-top: 7px;
+    margin-left: 27px;
+    font-size: 0.75rem;
+}
+/* Here we are adding our search bar */
+.search{
+    height: 38px;
+    width: 628px;
+    border-radius: 4px;
+    display: flex;
+    background-color:#febd68;
+}
+.search:hover{
+    border: 3px solid #febd68;
+}
+.bar{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+.icon1{
+    height:38px;
+    width: 45px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.selector{
+    border: none;
+    background-color: #dfdbdb;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+/* Here we are adding our sign in opption */
+.sign{
+    height: 50px;
+    width: 130px;
+}
+.h1{
+    font-size: 0.70rem;
+    color:white;
+    margin-left:10px;
+    margin-top: 10px;
+}
+.h2{
+    color:white;
+    font-size: .9rem;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+/* Now we are adding our order box */
+.order{
+    height: 50px;
+    width:76px;
+    color: white;
+}
+.oh1{
+    font-size: 0.75rem;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.oh2{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+/* Here we are adding our cart panal */
+.cart{
+    height: 50px;
+    width: 84px;
+    display: flex;
+    color: white;
+}
+.cart i{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cart p{
+    margin-top: 26px;
+    font-size:0.85rem;
+    margin-left: 2px;
+    font-weight: 700;
+}
+/* Here we ar statring our next navbar */
+.nav2{
+    height: 40px;
+    background-color:#222f3d;
+    color: white;
+    display: flex;
+}
+.icon2{
+    height:35px;
+    width: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+.border2:hover{
+border: 1.5px solid white;
+}
+.icon2 a{
+    text-decoration: none;
+    color: white;
+}
+.all{
+    margin-left: 5px;
+}
+.icon2 i{
+    font-weight:bolder;
+    font-size: 1.2rem;
+}
+/* Here we are adding our options */
+.opt1{
+    height: 35px;
+    width: 102px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opt2{
+    height: 35px;
+    width: 128px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opt3{
+    height: 35px;
+    width:69px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opt4{
+    height: 35px;
+    width: 81px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opt5{
+    height: 35px;
+    width: 41px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.optoins{
+    text-decoration: none;
+    color: white;
+}
+.name{
+    height: 35px;
+    width: 250px;
+    color:#febd68;
+    margin-left: 600px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: 900;
+}
+/* Here we are starting our hero section */
+.hero{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   background-image: url(logo11.jpg);
+   background-size:cover;
+   height: 570px;
+   margin-right: 0px;
+}
+.herimag{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop1{
+    height: 378px;
+    width:  303px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    border: 1px solid black;
+}
+.simag{
+    background-image:url(project1.jpg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:320px;
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+.shop-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.shop00{
+    margin-top: 300px;
+    height: 378px;
+    width:  303px;
+    padding: 20px 0px 15px;
+}
+.imag5{
+    margin-left: 20px;
+}
+.shop05{
+border: 1px solid black;
+
+}
+.newshop{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 170px;
+}
+.go{
+    background-color: #cccc;
+}
+/* From here our books portion has been started */
+.books{
+    height:281px;
+    width: 1280px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.heading{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.book-store{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.book{
+    height: 200px;
+    width: 145px;
+    background-color: white;
+    margin-top: 10px;
+    background-size:cover;
+    height:200px;
+    width: 134px;
+}
+/* Here is our section of cloth for buying clothes */
+.cloth{
+    height:281px;
+    width: 1280px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.cloth-heading{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.clothes{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:200px;
+    width: 128px;
+    margin-top: 10px;
+}
+.cloth-store{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cloth4{
+    height: 200px;
+    width: 138px;
+}
+.cloth5{
+    height: 200px;
+    width: 192px;
+}
+.cloth6{
+    height: 200px;
+    width: 166px;
+}
+.cloth7{
+    height: 188px;
+    width: 270px;
+}
+ /* Here we are adding our sign in option at footer  */
+ .sign-footer{
+     height: 171px;
+     margin-top: 20px;
+     background-color: white;
+ }
+ .inner{
+    height: 80px;
+    border-top:.2px solid #cccc;
+    border-bottom:.2px solid #cccc;
+    align-items:column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 550px;
+    padding-top: 40px;
+ }
+.sign-box{
+    height:28px;
+    width: 230px;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    background-color:#f1b620;
+    border-radius: 5px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}
+.para1{
+    font-size: 12px;
+    padding-bottom:5px;
+    padding-left: 12px;
+    font-weight:600;
+}
+.para2{
+    font-size: 12px;
+    padding-top:5px;
+    padding-left: 40px;
+    font-weight:600;
+}
+
+/* We are going now to our next bar and going to last bar */
+.back{
+    height: 50px;
+    background-color:#37435a;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* Here is our 2nd last panal and we are goiong to be end */
+.panal05{
+    height: 378px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-size:.85rem;
+    color: #dddddd;
+    font-weight: 500;
+}
+.h00{
+    margin-top: 10px;
+}
+.h00:hover{
+    text-decoration: underline;
+    color: #dddddd;
+}
+.h01{
+    padding-top: 50px;
+    font-weight: 700;
+}
+/* Here we are again adding logo and some bxes */
+.three{
+    border-top: .2px solid #37435a;
+    height: 70px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div{
+    height: 70px;
+    width: 120px;
+    margin-right: 80px;
+    margin-bottom: 4px;
+}
+.logo2{
+    background-image:url(logo\ \(2\).png);
+    background-size: cover;
+    height:60px;
+    width: 100%;
+}
+/*  here we ar adding our box1*/
+.box01{
+    height:34px;
+    width: 116px;
+    border: .2px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+.selector001{
+background-color: #222f3d;
+color: #cccc;
+border: none;
+margin-right: 10px;
+}
+.icon01{
+    background-color: white;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.eng{
+    color:#cccc;
+    font-size: 0.85rem;
+    margin-left: 10px;
+    font-weight: 700;
+}
+/* here we are addig our next border*/
+.box02{
+    height:34px;
+    width: 150px;
+    border: .2px solid #dddddd;
+    color: #cccc;
+    font-size: .85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-right: 8px;
+}
+.dollar{
+    font-size: 1rem;
+    margin-right: 8px;
+    color: white;
+}
+ /* This is our last box */
+ .box03{
+    height: 34px;
+    width: 141px;
+    border: .2px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#cccc;
+ }
+ .box03 p{
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: arial;
+ }
+ .box03 i{
+    margin-right: 10px;
+ }
+ /* This is our last panal of the project */
+ .last{
+    height: 60px;
+    background-color:#1c2122;
+    color:#dddddd;
+    text-align: center;
+    font-size: 0.85rem;
+    padding-top: 20px;
+ }
+ .copy{
+    padding-top: 10px;
+ }
+ .last a{
+    padding-right: 15px;
+ }
+ @media (max-width:1100px){
+    .hero{
+        flex-wrap: wrap;
+    }
+ }
